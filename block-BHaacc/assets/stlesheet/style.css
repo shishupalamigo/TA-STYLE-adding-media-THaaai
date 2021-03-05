@@ -1,0 +1,215 @@
+/* CSS  RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS RESET ENDS HERE */
+
+/* CUSTOM STYLES */
+
+/* BOX SIZING */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*  BODY */
+body {
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+	color: #fff;
+}
+/* COMMON FEATURES */
+
+/* CONTAINER */
+.container {
+	max-width: 1279px;
+	margin: 0 auto;
+	padding: 0 8em;
+}
+/* FLEX */
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+/* ANCHOR TAGS AND PARA COMMON STYLES  */
+a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+p {
+	font-size: 18px;
+	color: #747474;
+}
+.btn {
+	display: inline-block;
+    padding: 10px 20px;
+	text-align: center;
+	margin: 4px 2px;
+	border-radius: 22px;
+}
+/* SQUARE DOTS */
+.square-container {
+	width: 10%;
+  }
+  .square {
+	  width: 30%;
+	  height: 10px;
+	  background-color: #a7a4a4;
+  }
+
+/* PAGE HEADER */
+.page-header {
+	z-index: 1;
+	position: absolute;	
+	top: 2em;
+	width: 100%;
+}
+.page-header h1 {
+	font-size: 36px;
+	font-weight: 900;
+}
+.page-header nav a {
+	margin-left: 1em;
+}
+.page-header .btn {
+	background: #CF3732;
+}
+/* HERO SECTION */
+.hero-section {
+	background: linear-gradient(to right, rgba(66,132,214, .9), rgba(120,140,211, .9), 
+				rgba(102,182,192, .6), rgba(113,203,170,.8),
+				rgba(17, 243, 104, .8)), url("../home-bg.jpg") no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 100vh;
+	width: 100vw;
+	padding-top: 5em;
+	margin-bottom: 3em;
+}
+.hero-content {
+	margin-top: 5em;
+	padding-top: 5em;
+}
+.moto {
+	width: 50%;
+}
+.moto h2 {
+   font-size: 42px;
+   font-weight: 900;
+}
+.moto a {
+	border: 2px solid #fff;
+}
+.enquiry {
+	color: #fff;
+}
+.enquiry small {
+	font-size: 14px;
+}
+/* MAIN */
+
+/* ABOUT SECTION */
+.about-section {
+	margin-top: 3em;
+	padding-top: 3em;
+}
+.intro {
+	width: 30%;
+}
+.intro h3 {
+	font-size: 36px;
+	color: black;
+	font-weight: 700;
+}
+.intro p {
+	padding-top: 1em;
+}
+.progress {
+	width: 20%;
+}
+.progress p {
+	color: black;
+	padding-top: .75em;
+}
+.progress hr {
+	height: 5px;
+    background: black;	
+}
+.web {
+	width: 85%;
+}
+.photography {
+	width: 90%;
+}
+.marketing {
+	width: 75%;
+}
+.admin {
+   width: 70%;
+}
+.about-image {
+	width: 30%;
+}
+.about-image img {
+	width: 100%;
+}
