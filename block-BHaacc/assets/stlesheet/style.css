@@ -109,7 +109,7 @@ p {
 }
 /* SQUARE DOTS */
 .square-container {
-	width: 10%;
+	width: 30px;
   }
   .square {
 	  width: 30%;
@@ -172,9 +172,11 @@ p {
 .about-section {
 	margin-top: 3em;
 	padding-top: 3em;
+	
 }
 .intro {
 	width: 30%;
+	padding-bottom: 3em;
 }
 .intro h3 {
 	font-size: 36px;
@@ -209,7 +211,146 @@ p {
 }
 .about-image {
 	width: 30%;
+	height: 100%;
+	padding-bottom: 0;
 }
 .about-image img {
 	width: 100%;
+	height: 450px;
 }
+/* SECTION HEADER */
+.section-header {
+	color: black;
+	text-align: center;
+	padding: 3em 0;
+}
+.section-header h3 {
+	font-size: 36px;
+	font-weight: 900;	
+}
+.section-header .square-container {
+	margin: 0 auto;
+}
+/* BLOG SECTION */
+.blog-section .section-header {
+	background: #EFEFEF; 
+}
+.blog-container {
+	background: #efefef;
+	flex-wrap: wrap;
+	padding-bottom: 2em;
+}
+.blog-content {
+	width: 48%;
+	background: #fff;
+	margin-bottom: 4%;
+}
+.blog-content figure {
+	width: 40%;
+}
+.blog-content img {
+	width: 100%;
+}
+.blog-content aside {
+	width: 55%;
+}
+.blog-content h4 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	padding: .5em 0;
+}
+.red {
+	color: #CF3732;
+	font-size: 12px;
+}
+.blog-content .btn {
+	background-color: #EFEFEF;
+	color: #686868;
+	margin-top: 1em;
+}
+/* WORK  SECTION */
+.work-section {
+       margin-bottom: 5em;
+	   background: #fff;
+}
+.work-section .section-header {
+	background: #fff; 
+}
+.work-image {
+	width: 23%;
+}
+.work-image img {
+	width: 100%;
+}
+/* CONTACT SECTION */
+.contact-section {
+	background: linear-gradient(to right, #0D76E6, #76E472);
+	padding-bottom: 5em;
+}
+.form-container {
+	width: 60%;
+	flex-wrap: wrap;
+}
+.form-container input {
+	width: 47%;
+	height: 3em;
+	padding: 1em;
+	font-size: 20px;
+	margin: 1em 0;
+	border-radius: 12px;
+	border: none;	
+}
+.form-container textarea {
+	width: 100%;
+	height: 9em;
+	padding: 1em;
+	margin: 1em 0;
+	border: none;
+	border-radius: 12px;
+	font-size: 20px;
+}
+.form-container a {
+	background: #CF3732;
+	margin-top: 1em;
+}
+.map-container {
+	width: 35%;
+}
+.map-container iframe {
+	border-radius: 50%;
+}
+
+/* FOOTER */
+.footer {
+	background: linear-gradient(to right, #3A3A3A, #010101);
+	padding-top: 4em;
+	padding-bottom: 2em;
+}
+.footer-content {
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-bottom: 3em;
+	padding-bottom: 2em;
+}
+.find p {
+	color: #fff;
+}
+.footer-content h3 {
+	font-size: 32px;
+	font-weight: 700;
+}
+.hydro-description {
+	width: 35%;
+}
+.footer hr {
+	width: 100%;
+	margin-top: 2em;
+}
+.call {
+	color: #fff;
+}
+.footer .icon-nav a {
+	margin-left: 1em;
+}
+/* STYLE ENDS HERE */
